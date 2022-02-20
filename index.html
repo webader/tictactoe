@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Game</title>
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header id="header">
+        <div class="container"><h1>Tic Tac Game</h1></div>
+    </header>
+    
+    <div id="board">
+      <div data-index="1" class="tile right-border bottom-border"></div>
+      <div data-index="2" class="tile right-border bottom-border"></div>
+      <div data-index="3" class="tile bottom-border"></div>
+      <div data-index="4" class="tile right-border bottom-border"></div>
+      <div data-index="5" class="tile right-border bottom-border"></div>
+      <div data-index="6" class="tile bottom-border"></div>
+      <div data-index="7" class="tile right-border"></div>
+      <div data-index="8" class="tile right-border"></div>
+      <div data-index="9" class="tile"></div>
+      <div id="strike" class="strike"></div>
+    </div>
+    <div id="game-over-area" class="hidden">
+      <h2 id="game-over-text">Winner is X</h2>
+      <button id="play-again">Play Again</button>
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <a href="https://rs.school/js/" class="logo__link">
+                <img src="./img/rs_school_js.svg" alt="Logo">
+            </a>
+
+            <span>@ 2022</span>
+            
+            <a href="https://github.com/webader" class="link">
+                Github developer
+            </a>
+            <a href="https://rs.school/js/" class="school link">
+                The Rolling Scopes
+            </a>
+  
+        </div>
+      </footer>
+  
+    <script src="./js/script.js"></script>
+  </body>
+</html>
